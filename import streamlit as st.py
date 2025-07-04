@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+
 #Configuração da página
 st.title("Pré Carteira Nacional Digital")
- #entrada de idade
+
+
+    #entrada de idade
 idade = st.number_input("Informe sua idade:", min_value=0, step=1)
 
 
@@ -21,6 +24,3 @@ else:
     
    
  
-
-
-
